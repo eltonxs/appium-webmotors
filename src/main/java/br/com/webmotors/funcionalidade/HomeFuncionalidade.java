@@ -29,4 +29,17 @@ public class HomeFuncionalidade {
 	public void clicarbuscar() {
 		home.getBuscarAqui().click();
 	}
+
+	public void buscarMarca() {
+		home.getbuscarMarca().click();
+	}
+
+	public void selecionarMarca() {
+		home.getselecionarMarca().click();
+	}
+
+	public void verAnuncio() {
+		home.getverAnuncio().click();
+	}
+
 }
